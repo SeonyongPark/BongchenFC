@@ -142,8 +142,8 @@ ul{
 }
 
 .fVrhsv:hover{
-    font-size: 10px;
-    padding: 4px;
+    color: rgb(95, 37, 159);
+    border-color: rgb(95, 37, 159);
 }
 
 .Menu_Container{
@@ -167,6 +167,9 @@ ul{
     padding : 5px;
 }
 
+.MenuIemTitle:hover{
+	color:rgb(95, 37, 159);
+}
 
 .MenuIemTitle{
 	color: white;
