@@ -141,9 +141,8 @@ ul{
     text-transform: uppercase;
 }
 
-.fVrhsv:hover{
-    color: rgb(95, 37, 159);
-    border-color: rgb(95, 37, 159);
+.list_div:hover{
+    transform: scale( 1.1 )
 }
 
 .Menu_Container{
@@ -168,7 +167,7 @@ ul{
 }
 
 .MenuIemTitle:hover{
-	color:rgb(95, 37, 159);
+	transform: scale( 1.5 )
 }
 
 .MenuIemTitle{
@@ -213,6 +212,7 @@ ul{
     flex-direction: column;
     -webkit-box-flex: 2;
     flex-grow: 2;
+    background-color: white;
 }
 .ViewPort_Main{
 	-webkit-box-flex: 1;
@@ -631,17 +631,56 @@ ul{
 	display: none;
 }
 
+/* 현재 유니폼 사진 */
+.bVAWgz {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    max-width: 920px;
+}
+
+.hUWEKV {
+    display: none;
+    margin: 0px auto;
+    max-width: 100%;
+    max-height: 250px;
+}
+.jeKSpz {
+    display: block;
+    max-width: 100%;
+    max-height: 250px;
+}
+
+.kOMYD {
+    font-family: Verlag, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 0.21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(95, 37, 159);
+    padding: 70px 0px 15px;
+}
+
+@media screen and (min-width:700px) {
+		.jeKSpz { 
+			display: none;
+		}
+		.hUWEKV{
+			display: block;
+		}
+	}
+
 @media screen and (max-width:550px) {
 	.ghmMte {
-    display: none;
-    -webkit-box-align: center;
-    align-items: center;
-}
-.mobile_mark{
-	display : block;
-	width : 60px;
-}
-.list_div{
-	padding:10px;
-}
-}
+		display: none;
+		-webkit-box-align: center;
+		align-items: center;
+	}
+	.mobile_mark {
+		display: block;
+		width: 60px;
+	}
+	.list_div {
+		padding: 10px;
+	}}
