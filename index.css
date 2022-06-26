@@ -599,11 +599,9 @@ ul{
 }
 
 .bJBAIz th:first-child {
-    border-left-width: 3px;
     border-radius: 8px 0px 0px 8px;
 }
 .bJBAIz th:last-child {
-    border-right-width: 3px;
     border-radius: 0px 8px 8px 0px;
     padding-right: 10px;
 }
@@ -619,12 +617,12 @@ ul{
 }
 
 .iIpKpt td:first-child {
-    border-left-width: 3px;
+  
     border-radius: 8px 0px 0px 8px;
 }
 
 .iIpKpt td:last-child {
-    border-right-width: 3px;
+    
     border-radius: 0px 8px 8px 0px;
     padding-right: 10px;
 }
@@ -721,6 +719,12 @@ ul{
 .fBLugb .left-side img {
     height: 92px;
     margin-right: 30px;
+}
+
+.bkAUqP{
+	border-color: inherit;
+    /* border-style: solid; */
+    border-width: 0;
 }
 
 @media screen and (min-width:700px) {
