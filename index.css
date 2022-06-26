@@ -141,8 +141,15 @@ ul{
     text-transform: uppercase;
 }
 
+.fVrhsv:hover{
+	 transform: scale( 1.1 );
+	 color: rgb(95, 37, 159);
+	 border-color: rgb(95, 37, 159);
+}
+
 .list_div:hover{
-    transform: scale( 1.1 )
+    transform: scale( 1.1 );
+    color: rgb(95, 37, 159);
 }
 
 .Menu_Container{
@@ -167,7 +174,8 @@ ul{
 }
 
 .MenuIemTitle:hover{
-	transform: scale( 1.5 )
+	transform: scale( 1.5 );
+	color: rgb(95, 37, 159);
 }
 
 .MenuIemTitle{
