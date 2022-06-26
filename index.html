@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name = "viewport" content = "width = device-width, initial-scale-1">
 <link href = "idx_images/1-removebg-preview.ico" rel="shortcut icon" type="image/x-icon">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 <title>BongchenFC</title>
 <link rel="stylesheet" href="index.css">
 </head>
@@ -67,13 +68,52 @@
 						<div class="WebHomeCarouselElement">
 							<div class="hQBNtz">
 								<!-- 배너 사진 -->
-								<section class="kMnuZg">
-									<div>
+								<section class="kMnuZg carousel slide" id="carouselExample" data-bs-ride="carousel">
+									<!-- 선택 아이콘 표시 시작 -->
+									<div class="carousel-indicators">
+										<button type="button" data-bs-target="#carouselExample"
+											data-bs-slide-to="0" class="active"></button>
+										<button type="button" data-bs-target="#carouselExample"
+											data-bs-slide-to="1"></button>
+										<button type="button" data-bs-target="#carouselExample"
+											data-bs-slide-to="2"></button>
+									</div>
+									<div class = "carousel-inner">
 										<ul class="glYXox">
-											<!-- <li class="bZKJhZ"><img src="idx_images/Gwanak (1).jpg"></li> -->
-											<li class="bZKJhZ"><img src="idx_images/se.png"></li>
+											<li class="bZKJhZ carousel-item active">
+												<img src="idx_images/se1.png">
+												<div class="carousel-caption d-none d-md-block">
+													<h5>풋살 아디다스 더 베이스(용산)</h5>
+												</div>
+											</li>
+											<li class="bZKJhZ carousel-item">
+												<img src="idx_images/together1.jpg">
+												<div class="carousel-caption d-none d-md-block">
+													<h5>축구 관악구민운동장</h5>
+												</div>
+											</li>
+											<li class="bZKJhZ carousel-item">
+												<img src="idx_images/se1.png">
+												<div class="carousel-caption d-none d-md-block">
+													<h5>풋살</h5>
+													<p>아디다스 더 베이스</p>
+												</div>
+											</li>
 										</ul>
 									</div>
+									<!-- 이미지 표시 끝 -->
+									<!-- 이전/다음 버튼 표시 시작 -->
+									<button class="carousel-control-prev" type="button"
+										data-bs-target="#carouselExample" data-bs-slide="prev">
+										<span class="carousel-control-prev-icon"></span> <span
+											class="visually-hidden">Previous</span>
+									</button>
+									<button class="carousel-control-next" type="button"
+										data-bs-target="#carouselExample" data-bs-slide="next">
+										<span class="carousel-control-next-icon"></span> <span
+											class="visually-hidden">Next</span>
+									</button>
+									<!-- 이전/다음 버튼 표시 끝 -->
 								</section>
 							</div>
 						</div>
@@ -455,5 +495,6 @@
 			</footer>
 		</div>
 	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
